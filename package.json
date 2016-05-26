@@ -1,0 +1,31 @@
+{
+    "name":             "querylist",
+    "version":          "9.9.9",
+    "description":      "Encode and decode query strings preserving order.",
+    "keywords":
+    [
+                        "url", "querystring", "http"
+    ],
+    "author":           "Alan Gutierrez <alan@prettyrobots.com>",
+    "contributors":     [],
+    "homepage":         "https://bigeasy.github.io/happenstance",
+    "bugs":             "https://github.com/bigeasy/happenstance/issues",
+    "license":          "MIT",
+    "repository":
+    {
+                        "type": "git",
+                        "url": "http://github.com/bigeasy/happenstance.git"
+    },
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                        "proof": "1.x"
+    },
+    "main":             "querylist.js",
+    "scripts":
+    {
+                        "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    }
+}
